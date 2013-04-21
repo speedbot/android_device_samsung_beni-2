@@ -7,7 +7,7 @@ $(call inherit-product, device/samsung/beni/full_beni.mk)
 # Inherit some common CM stuff.
 TARGET_SCREEN_HEIGHT := 320
 TARGET_SCREEN_WIDTH := 240
-$(call inherit-product, vendor/cm/config/mini.mk)
+$(call inherit-product, vendor/cm/config/tiny.mk)
 
 # Overrides
 PRODUCT_NAME := cm_beni
