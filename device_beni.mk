@@ -18,8 +18,7 @@ PRODUCT_PACKAGES += \
     wlan_tool \
     wmiconfig
 
-PRODUCT_PACKAGES += \
-    Torch
+
 
 ## Ramdisk
 PRODUCT_COPY_FILES += \
