@@ -19,7 +19,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/samsung/beni/device_beni.mk)
 
 # Overrides
-PRODUCT_NAME := full_beni
+PRODUCT_NAME := rootbox_beni
 PRODUCT_DEVICE := beni
 PRODUCT_BRAND := Samsung
 PRODUCT_MODEL := GT-S5670
